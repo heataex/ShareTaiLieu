@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Đăng ký tài khoản</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+
+.register-box{
+
+width:360px;
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 20px 40px rgba(0,0,0,0.2);
+
+text-align:center;
+
+}
+
+.register-box h2{
+margin-bottom:10px;
+}
+
+.register-box p{
+color:#777;
+margin-bottom:25px;
+font-size:14px;
+}
+
+
+.input-group{
+position:relative;
+margin-bottom:18px;
+}
+
+.input-group i{
+
+position:absolute;
+
+top:13px;
+
+left:12px;
+
+color:#888;
+
+}
+
+.input-group input{
+
+width:100%;
+
+padding:12px 12px 12px 35px;
+
+border:1px solid #ddd;
+
+border-radius:8px;
+
+outline:none;
+
+transition:0.3s;
+
+}
+
+.input-group input:focus{
+
+border-color:#667eea;
+
+box-shadow:0 0 6px rgba(102,126,234,0.4);
+
+}
+
+
+button{
+
+width:100%;
+
+padding:12px;
+
+border:none;
+
+border-radius:8px;
+
+background:linear-gradient(45deg,#667eea,#764ba2);
+
+color:white;
+
+font-size:16px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+transform:translateY(-2px);
+
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.login-link{
+margin-top:18px;
+font-size:14px;
+}
+
+.login-link a{
+color:#667eea;
+text-decoration:none;
+font-weight:500;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="register-box">
+
+<h2>Đăng ký</h2>
+<p>Tạo tài khoản để chia sẻ tài liệu</p>
+
+<form>
+
+<div class="input-group">
+<i class="fa fa-user"></i>
+<input type="text" placeholder="Họ và tên" required>
+</div>
+
+<div class="input-group">
+<i class="fa fa-envelope"></i>
+<input type="email" placeholder="Email" required>
+</div>
+
+<div class="input-group">
+<i class="fa fa-lock"></i>
+<input type="password" placeholder="Mật khẩu" required>
+</div>
+
+<div class="input-group">
+<i class="fa fa-lock"></i>
+<input type="password" placeholder="Nhập lại mật khẩu" required>
+</div>
+
+<button type="submit">Đăng ký</button>
+
+<div class="login-link">
+Đã có tài khoản? <a href="login.html">Đăng nhập</a>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>

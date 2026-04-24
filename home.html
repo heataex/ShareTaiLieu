@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sharetailieu</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f4f6fb;
+}
+
+.navbar{
+    background:#1e88e5;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 30px;
+}
+
+.logo{
+    font-weight:bold;
+    font-size:18px;
+}
+
+.search-box{
+    width:40%;
+}
+
+.search-box input{
+    width:100%;
+    padding:8px 12px;
+    border-radius:20px;
+    border:none;
+}
+
+.nav-right button{
+    padding:7px 14px;
+    border:none;
+    border-radius:6px;
+    background:white;
+    color:#1e88e5;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.nav-right span{
+    color:white;
+}
+
+.hero{
+    margin:30px auto;
+    width:80%;
+    background:linear-gradient(90deg,#1e88e5,#42a5f5);
+    color:white;
+    padding:30px;
+    border-radius:12px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.stats{
+    display:flex;
+    gap:20px;
+}
+
+.stat-box{
+    background:rgba(255,255,255,0.2);
+    padding:15px 20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.categories{
+    width:80%;
+    margin:20px auto;
+}
+
+.category-list{
+    display:flex;
+    gap:15px;
+    margin-top:10px;
+}
+
+.category{
+    background:white;
+    padding:15px 20px;
+    border-radius:10px;
+    box-shadow:0 2px 6px rgba(0,0,0,0.05);
+    cursor:pointer;
+}
+
+.files{
+    width:80%;
+    margin:30px auto;
+    text-align:center;
+    color:#777;
+}
+
+.icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="logo">Sharetailieu</div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Tìm kiếm tài liệu...">
+    </div>
+
+    <div class="nav-right">
+        <button>Đăng tải</button>
+        <span>Người dùng</span>
+    </div>
+</div>
+
+<div class="hero">
+    <div>
+        <h2>Chào mừng đến với Sharetailieu! 📚</h2>
+        <p>Nơi chia sẻ và khám phá hàng ngàn tài liệu học tập chất lượng cao từ cộng đồng.</p>
+    </div>
+
+    <div class="stats">
+        <div class="stat-box">
+            <h3>0</h3>
+            <p>Tài liệu</p>
+        </div>
+
+        <div class="stat-box">
+            <h3>0</h3>
+            <p>Lượt tải</p>
+        </div>
+    </div>
+</div>
+
+<div class="categories">
+    <h3>Danh mục tài liệu</h3>
+
+    <div class="category-list">
+        <div class="category">Tất cả</div>
+        <div class="category">Toán cao cấp</div>
+        <div class="category">Vật lý đại cương</div>
+        <div class="category">Hóa học đại cương</div>
+        <div class="category">Tin học</div>
+        <div class="category">Anh văn</div>
+    </div>
+</div>
+
+<div class="files">
+    <div class="icon">📄</div>
+    <p>Không tìm thấy tài liệu phù hợp</p>
+</div>
+
+</body>
+</html>
