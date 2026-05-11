@@ -1,0 +1,78 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover {
+    transform: scale(1.02);
+}
+
+.logo-img {
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: #0056b3;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    color: #444;
+    letter-spacing: 1.8px;
+    margin-top: 4px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .logo-img {
+        height: 45px;
+    }
+    .main-title {
+        font-size: 18px;
+    }
+    .sub-title {
+        font-size: 7px;
+        letter-spacing: 1px;
+    }
+}
+
+.auth-logo {
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.logo-container {
+    display: flex; align-items: center; gap: 15px;
+}
+.logo-img {
+    height: 75px; width: auto; object-fit: contain;
+}
+.logo-text { display: flex; flex-direction: column; }
+.main-title {
+    font-size: 26px; font-weight: 800; color: #0056b3;
+    line-height: 1; letter-spacing: 0.5px;
+}
+.sub-title {
+    font-size: 9px; color: #444; letter-spacing: 1.5px;
+    margin-top: 5px; text-transform: uppercase;
+}
